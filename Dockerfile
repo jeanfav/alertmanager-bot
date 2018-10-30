@@ -1,7 +1,7 @@
 FROM alpine:latest
 RUN apk add --update ca-certificates
 
-ADD . /usr/bin/alertmanager-bot
+ADD ./alertmanager-bot /usr/bin/alertmanager-bot
 
 EXPOSE 8080
 
